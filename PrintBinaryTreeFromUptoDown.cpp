@@ -7,11 +7,13 @@
 * 面试题32: 从上到下打印二叉树
 * 题目一：不分行打印(PrintFromTopToBottom)
 * 题目二：分行从上到下打印二叉树(print)
+* 题目三: 之字形打印二叉树(两个栈，分别存储奇偶层节点)
 *
 * 分析： 层序遍历
 *******************************************************************/
 #include<queue>
 #include<iostream>
+#include<stack>
 
 struct BinaryTreeNode {
 	int m_mValue;
@@ -70,6 +72,41 @@ public:
 				std::cout << std::endl;
 				toBePrinted = nextLevel;
 				nextLevel = 0;
+			}
+		}
+	}
+
+	// 之字形打印二叉树
+	void PrintOfZigzag(BinaryTreeNode* pRoot) {
+		if (pRoot == nullptr)
+			return;
+
+		std::stack<BinaryTreeNode *>levels[2];
+		int current = 0;
+		int next = 1;
+
+		levels[current].push(pRoot);
+		while (!levels[0].empty() || !levels[1].empty()) {
+			BinaryTreeNode* pNode = levels[current].top();
+			levels[current].pop();
+
+			if (current == 0) {
+				if (pNode->m_pLeft != nullptr)
+					levels[next].push(pNode->m_pLeft);
+				if (pNode->m_pRight != nullptr)
+					levels[next].push(pNode->m_pRight);
+			}
+			else {
+				if (pNode->m_pRight != nullptr)
+					levels[next].push(pNode->m_pRight);
+				if (pNode->m_pLeft != nullptr)
+					levels[next].push(pNode->m_pLeft);
+			}
+
+			if (levels[current].empty()) {
+				std::cout << std::endl;
+				current = 1 - current;
+				next = 1 - next;
 			}
 		}
 	}
