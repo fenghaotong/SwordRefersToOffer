@@ -56,5 +56,74 @@
     <ClCompile Include="OverHalfNumInArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MinKNums.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Count1InInt1N.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberOfSequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortArrayToMinNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberTranToString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxOfValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxNoReSubString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charOfFirstCount1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OXnumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReversePairOfArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFirstCommonNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchNumInSortArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KthNodeInBinarySerachTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeDepth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberCountInArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumOfSumS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxOfQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountOfNDice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IsContinuous.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LastRemianing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxDiffOfStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOf1ToN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

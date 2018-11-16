@@ -155,17 +155,40 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssignmentOperator.cpp" />
+    <ClCompile Include="BinaryTreeDepth.cpp" />
+    <ClCompile Include="charOfFirstCount1.cpp" />
+    <ClCompile Include="Count1InInt1N.cpp" />
+    <ClCompile Include="CountOfNDice.cpp" />
+    <ClCompile Include="FindFirstCommonNode.cpp" />
+    <ClCompile Include="IsContinuous.cpp" />
+    <ClCompile Include="KthNodeInBinarySerachTree.cpp" />
+    <ClCompile Include="LastRemianing.cpp" />
+    <ClCompile Include="MaxDiffOfStock.cpp" />
+    <ClCompile Include="MaxNoReSubString.cpp" />
+    <ClCompile Include="MaxOfQueue.cpp" />
+    <ClCompile Include="MaxOfValue.cpp" />
     <ClCompile Include="MergeList.cpp" />
     <ClCompile Include="DeleteLinkListNode.cpp" />
     <ClCompile Include="DeleteLinkListNode2.cpp" />
     <ClCompile Include="EntryNodeInListLoop.cpp" />
     <ClCompile Include="KNodeInLinkList.cpp" />
+    <ClCompile Include="MinKNums.cpp" />
+    <ClCompile Include="NumberCountInArray.cpp" />
+    <ClCompile Include="NumberOfSequence.cpp" />
+    <ClCompile Include="NumberTranToString.cpp" />
+    <ClCompile Include="NumOfSumS.cpp" />
     <ClCompile Include="OverHalfNumInArray.cpp" />
+    <ClCompile Include="OXnumber.cpp" />
     <ClCompile Include="PrintMatrix.cpp" />
     <ClCompile Include="RegularExpressionsMatching.cpp" />
     <ClCompile Include="ReorderArray.cpp" />
+    <ClCompile Include="ReversePairOfArray.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="SearchNumInSortArray.cpp" />
+    <ClCompile Include="SortArrayToMinNumber.cpp" />
     <ClCompile Include="StringOfNumber.cpp" />
     <ClCompile Include="StringSort.cpp" />
+    <ClCompile Include="SumOf1ToN.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
